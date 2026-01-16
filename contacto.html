@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos para hacer tu pedido de kefir natural o resolver tus dudas.">
+    <title>Contacto - Kfir-In</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Kfir<span class="logo-highlight">-In</span></span>
+            </a>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="productos.html" class="nav-link">Productos</a></li>
+                    <li class="nav-item"><a href="index.html#beneficios" class="nav-link">Beneficios</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <span>&times;</span>
+                </div>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Contáctanos</h1>
+            <p class="page-subtitle">Estamos aquí para ayudarte</p>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Hablemos</h2>
+                    <p class="contact-intro">¿Tienes preguntas sobre nuestros productos? ¿Quieres hacer un pedido? Contáctanos por cualquiera de estos medios.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-info">
+                                <h3>WhatsApp</h3>
+                                <p>+51 970 779 871</p>
+                                <a href="https://wa.me/51999999999" class="method-link" target="_blank">Enviar mensaje</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>info@Kfir-In.com</p>
+                                <a href="mailto:info@Kfir-In.com" class="method-link">Enviar correo</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">📷</div>
+                            <div class="method-info">
+                                <h3>Instagram</h3>
+                                <p>@Kfir-In</p>
+                                <a href="#" class="method-link" target="_blank">Seguir</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">📍</div>
+                            <div class="method-info">
+                                <h3>Ubicación</h3>
+                                <p>Talara, Perú</p>
+                                <p class="method-note">Entregas a domicilio</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-hours">
+                        <h3>Horario de Atención</h3>
+                        <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                        <p>Sábados: 9:00 AM - 2:00 PM</p>
+                        <p>Domingos: Cerrado</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Envíanos un Mensaje</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+51 970 779 871">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Asunto</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="pedido">Hacer un pedido</option>
+                                <option value="consulta">Consulta sobre productos</option>
+                                <option value="entrega">Información de entrega</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Cuéntanos cómo podemos ayudarte..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
+                        
+                        <div class="form-message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Cómo hago mi pedido?</h3>
+                    <p class="faq-answer">Puedes hacer tu pedido por WhatsApp, Instagram o mediante el formulario de contacto. Te responderemos rápidamente con la disponibilidad y detalles de entrega.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Cuánto dura el kefir?</h3>
+                    <p class="faq-answer">El kefir fresco dura aproximadamente 7-10 días refrigerado. Te lo entregamos recién preparado para máxima frescura.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">¿Hacen entregas a domicilio?</h3>
+                    <p class="faq-answer">Sí, realizamos entregas en Lima. El costo y tiempo de entrega dependen de tu ubicación. Contáctanos para más detalles.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">¿El kefir es apto para intolerantes a la lactosa?</h3>
+                    <p class="faq-answer">Muchas personas intolerantes a la lactosa pueden consumir kefir, ya que las bacterias descomponen gran parte de la lactosa. Consulta con tu médico si tienes dudas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Kfir-In</h3>
+                    <p class="footer-text">Probióticos naturales para tu bienestar. Elaborados con amor y dedicación.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📱</a>
+                        <a href="#" class="social-link">📷</a>
+                        <a href="#" class="social-link">👍</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="index.html#beneficios">Beneficios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Contacto</h4>
+                    <ul class="footer-links">
+                        <li>📧 info@Kfir-In.com</li>
+                        <li>📱 +51 970 779 871</li>
+                        <li>📍 Talara, Perú</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kfir-In. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
